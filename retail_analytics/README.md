@@ -1,15 +1,18 @@
-Welcome to your new dbt project!
+# Kaggle Retail Analytics (dbt + Snowflake)
 
-### Using the starter project
+This project demonstrates a modern analytics engineering workflow using:
 
-Try running the following commands:
-- dbt run
-- dbt test
+- Snowflake as the cloud data warehouse
+- dbt for transformation, testing, and documentation
+- A layered modeling approach (bronze → silver → gold)
 
+The goal is to take raw retail data and transform it into analytics-ready
+models suitable for business reporting and decision-making.
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Stack
+- Snowflake
+- dbt Core
+- SQL
+
+## Status
+🚧 In progress – data ingestion and core models under development
