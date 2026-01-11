@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: AE_LAB
+    schema: RAW
+    tables:
+      - name: online_retail_ii_raw
+      - name: ecom_events_raw
