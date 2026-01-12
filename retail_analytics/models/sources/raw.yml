@@ -4,6 +4,17 @@ sources:
   - name: raw
     database: AE_LAB
     schema: RAW
+    freshness:
+      warn_after: {count: 24, period: hour}
+      error_after: {count: 48, period: hour}
+
     tables:
       - name: online_retail_ii_raw
+        tests:
+          - not_null:
+              column_name: invoiceno
+
       - name: ecom_events_raw
+        tests:
+          - not_null:
+              column_name: event_time

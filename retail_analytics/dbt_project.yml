@@ -32,6 +32,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   retail_analytics:
+    example:
+      +enabled: false
     bronze:
       +schema: BRONZE
       +materialized: table

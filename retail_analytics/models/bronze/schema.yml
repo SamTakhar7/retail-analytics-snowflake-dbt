@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: bronze__online_retail
+    description: "Typed, lightly cleaned version of RAW.ONLINE_RETAIL_II_RAW."
+    columns:
+      - name: invoice_no
+        tests: [not_null]
+      - name: stock_code
+        tests: [not_null]
+      - name: invoice_ts
+        tests: [not_null]
+      - name: quantity
+        tests:
+          - not_null
+      - name: unit_price
+        tests:
+          - not_null
+
+  - name: bronze__ecom_events
+    description: "Typed, lightly cleaned version of RAW.ECOM_EVENTS_RAW."
+    columns:
+      - name: event_ts
+        tests: [not_null]
+      - name: event_type
+        tests: [not_null]
+      - name: user_id
+        tests: [not_null]

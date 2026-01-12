@@ -1,0 +1,33 @@
+[0m12:06:54.803617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1082f68a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1090866c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109086480>]}
+
+
+============================== 12:06:54.806572 | ba25f963-b368-498c-abeb-5f1802780fbc ==============================
+[0m12:06:54.806572 [info ] [MainThread]: Running with dbt=1.11.2
+[0m12:06:54.806884 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'use_colors': 'True', 'quiet': 'False', 'indirect_selection': 'eager', 'log_format': 'default', 'target_path': 'None', 'cache_selected_only': 'False', 'log_path': 'logs', 'partial_parse': 'True', 'introspect': 'True', 'write_json': 'True', 'no_print': 'None', 'log_cache_events': 'False', 'static_parser': 'True', 'warn_error': 'None', 'debug': 'False', 'invocation_command': 'dbt init retail_analytics', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'profiles_dir': '/Users/samneettakhar/.dbt', 'empty': 'None', 'send_anonymous_usage_stats': 'True', 'version_check': 'True'}
+[0m12:06:54.819053 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/dbt/include/starter_project
+[0m12:06:54.825073 [info ] [MainThread]: 
+Your new dbt project "retail_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:06:54.825324 [info ] [MainThread]: Setting up your profile.
+[0m12:06:59.036435 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m12:06:59.036710 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m12:06:59.036851 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m12:07:35.977651 [info ] [MainThread]: Profile retail_analytics written to /Users/samneettakhar/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:07:36.049097 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 41.289364, "process_in_blocks": "0", "process_kernel_time": 0.202627, "process_mem_max_rss": "125763584", "process_out_blocks": "0", "process_user_time": 0.869338}
+[0m12:07:36.050990 [debug] [MainThread]: Command `dbt init` succeeded at 12:07:36.050862 after 41.29 seconds
+[0m12:07:36.051627 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1048269c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1099aab10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1097e8d70>]}
+[0m12:07:36.053585 [debug] [MainThread]: Flushing usage events
+[0m12:07:36.604732 [debug] [MainThread]: An error was encountered while trying to flush usage events

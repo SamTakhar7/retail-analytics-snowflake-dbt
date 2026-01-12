@@ -15,4 +15,8 @@ models suitable for business reporting and decision-making.
 - SQL
 
 ## Status
+<<<<<<< HEAD
 🚧 In progress – data ingestion and core models under development
+=======
+🚧 In progress – data ingestion and core models under development
+>>>>>>> 678cc7c (WIP: retail analytics models and tests)

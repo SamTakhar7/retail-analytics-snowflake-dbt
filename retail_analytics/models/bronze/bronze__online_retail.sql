@@ -27,7 +27,6 @@ final as (
 
     select *
     from typed
-    where invoice_no is not null
 
 )
 

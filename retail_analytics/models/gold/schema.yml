@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: gold__customer_value_segments
+    description: "Customer-level metrics + segment assignment for commercial use."
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique

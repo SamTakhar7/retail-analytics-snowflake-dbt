@@ -8,5 +8,5 @@ select
   sum(quantity * unit_price) as gross_revenue,
   sum(quantity) as item_qty
 from {{ ref('bronze__online_retail') }}
-where invoice_no is not null
+where invoice_no is not null and customer_id is not null
 group by 1,2,3,4

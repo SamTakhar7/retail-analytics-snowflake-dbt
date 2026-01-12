@@ -1,4 +1,11 @@
-
+# dbt
 target/
-dbt_packages/
 logs/
+dbt_packages/
+
+# credentials
+profiles.yml
+.env
+
+# OS
+.DS_Store
